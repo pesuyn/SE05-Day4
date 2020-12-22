@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+<body>
+    <h2>Đăng nhập quản lý</h2><br>
+    <div class="login">
+    <form id="login" >
+        <label><b>Tài khoản
+        </b>
+        </label>
+        <input type="text" name="Uname" id="Uname" placeholder="Tài khoản">
+        <br><br>
+        <label><b>Mật khẩu
+        </b>
+        </label>
+        <input type="Mật khẩu" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+        <h2><a href="{% url 'TrangChu:edit' %}">Đăng nhập</a></h2>
+        <br><br>
+         <h2><a href="{% url 'TrangChu:trangchu' %}">Quay lại trang chủ</a></h2>
+    </form>
+</div>
+</body>
+</html>
